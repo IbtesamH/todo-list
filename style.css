@@ -1,0 +1,94 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(44, 44, 56);
+    color: rgb(194, 187, 187);
+    font-family: 'Abel', sans-serif;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+    margin-top: 5rem;
+}
+
+.title {
+    font-size: 2rem;
+    letter-spacing: 3px;
+    margin-block: 1rem;
+}
+
+#new-task-input {
+    width: 80%;
+    background-color: rgb(25, 26, 32);
+    border: none;
+    border-radius: 15px;
+    padding: .8em ;
+}
+
+#new-task-input:focus {
+    background-color: white;
+    color: black;
+}
+
+#new-task-submit {
+    background: transparent;
+    border: none;
+    font-size: 1rem;
+    background: -webkit-linear-gradient(45deg, rgb(161, 103, 152), rgb(97, 69, 129));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-inline: .5em;
+    cursor: pointer;
+}
+
+.task-list {
+    margin-top: 3em;
+}
+
+.task-container {
+    display: flex;
+    background-color: rgb(14, 22, 36);
+    justify-content: space-between;
+    border: none;
+    border-radius: 15px;
+    padding: .5em;
+    margin-top: 1rem;
+}
+
+.tasks {
+    font-size: 1.5em;
+}
+
+.text {
+    background: none;
+    border: none;
+    color: rgb(155, 148, 148);
+}
+
+.button {
+    background: none;
+    border: none;
+    color: white;
+    margin-inline: 1em;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.delete {
+    color: red;
+}
+
+.edit {
+    background: -webkit-linear-gradient(45deg, rgb(161, 103, 152), rgb(97, 69, 129));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
