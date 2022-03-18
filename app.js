@@ -3,6 +3,8 @@ window.addEventListener('load', () => {
     const input = document.querySelector('#new-task-input');
     const list_el = document.querySelector('.task-list');
 
+
+
     form.addEventListener('submit', (e) => {
         e.preventDefault();
 
@@ -45,7 +47,7 @@ window.addEventListener('load', () => {
 
         edit.addEventListener('click', () =>{
             task_el.style.textDecoration = 'line-through';
-        })
-    
-    })
+            task_el.style.opacity = .5;
+        });
+    });
 });
